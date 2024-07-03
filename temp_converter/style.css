@@ -1,0 +1,51 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    background-image: url(img/thermal-sun.webp);
+    background-size: cover;
+    
+}
+.container {
+    width: 35%;
+    display: flex;
+    backdrop-filter: blur(3px);
+    margin: 15% 32.5%;
+    flex-direction: column;
+    align-items: center;
+    background: transparent;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px 5px rgba(0, 0, 0, 0.831);
+}
+.container input{
+    background-color: rgba(51, 51, 51, 0.409);
+    color: black;
+    margin: 10px;
+    padding: 10px;
+    font-size: 16px;
+}
+.container select{
+    background-color: rgba(51, 51, 51, 0.409);
+    color:black;
+    margin: 10px;
+    padding: 10px;
+    font-size: 16px;
+
+}
+.container button {
+    background-color: rgba(51, 51, 51, 0.194);
+    color: black;
+    margin: 10px;
+    padding: 10px;
+    font-size: 16px;
+    transition: 0.3s;
+}
+.container button:active{
+    background-color: rgba(108, 106, 106, 0.094);
+}
+#output {
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: bold;
+    color: whitesmoke;
+}
